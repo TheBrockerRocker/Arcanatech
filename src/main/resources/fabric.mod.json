@@ -11,7 +11,7 @@
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "net.brocker.arcanatech.client.ArcanatechDataGenerator"
+      "net.brocker.arcanatech.datagen.ArcanatechDataGenerator"
     ],
     "client": [
       "net.brocker.arcanatech.client.ArcanatechClient"
