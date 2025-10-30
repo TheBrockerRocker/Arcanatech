@@ -12,7 +12,6 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Arcanatech.MOD_ID), 
             function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Arcanatech.MOD_ID, name)))));
