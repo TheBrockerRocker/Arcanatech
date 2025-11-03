@@ -4,7 +4,10 @@
   "version": "${version}",
   "name": "Arcanatech",
   "description": "The automation focused magic mod that invovles tools.",
-  "authors": [],
+  "authors": [
+    "The Brocker Rocker",
+    "creeper"
+  ],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/arcanatech/icon.png",
